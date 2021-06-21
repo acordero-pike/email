@@ -57,7 +57,7 @@ function validarFormulario(e) {
                     console.log(name); // revision de que este correcto lo que se manda 
                     document.querySelector(`${name}`).innerHTML=`${imagen}`; //agregar la imagen 
                }
-           
+               document.querySelector("#imags").innerHTML=``;
         
      } else {
          
@@ -70,7 +70,7 @@ function validarFormulario(e) {
           campos.classList.add("bg-red-600");
           //imagen de envio correcto
           const imagen= ' <img src="http://alyssaconsultores.com/images/SIGESEGUROS_NO1.gif" style="height:30px; width:30px;"  /> '
-         
+          document.querySelector("#imags").innerHTML=``;
           const  name = "#error-"+this.id;
           console.log(name);
                document.querySelector(`${name}`).innerHTML=`${imagen}`;
