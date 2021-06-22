@@ -48,7 +48,7 @@ function validarFormulario(e) {
           campos.innerHTML=``;
           btnEnviar.disabled = false;
          //imagen de  correcto 
-            const imagen= ' <img src="https://media.tenor.com/images/f92741349d817846a95a0b52b7ae2055/tenor.gif" style="height:30px; width:30px;"  /> '
+            const imagen= ' <img src="https://m.gifmania.com/Gif-Animados-Web/Imagenes-Checks/Check-Verde-84435.gif" style="height:30px; width:30px;"  /> '
         
           const  name = "#error-"+this.id;
          
@@ -143,7 +143,7 @@ function validarEmail(campo) {
           campo.classList.remove('error');
           campos.innerHTML=``;
          //imagen de que esta correcto 
-          const imagen= ' <img src="https://media.tenor.com/images/f92741349d817846a95a0b52b7ae2055/tenor.gif" style="height:30px; width:30px;"  /> '
+          const imagen= ' <img src="https://m.gifmania.com/Gif-Animados-Web/Imagenes-Checks/Check-Verde-84435.gif" style="height:30px; width:30px;"  /> '
           document.querySelector("#error-email").innerHTML=`${imagen}`;
      } else {
           campo.style.borderBottomColor = 'red';
