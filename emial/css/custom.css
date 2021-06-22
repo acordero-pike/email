@@ -5,7 +5,9 @@ body {
 }
 .bgim
 {
- Background: Url("https://image.freepik.com/vector-gratis/rombo-diseno-luz-neon_1189-449.jpg");   
+background: Url("https://image.freepik.com/vector-gratis/rombo-diseno-luz-neon_1189-449.jpg");
+    background-size: cover;
+    color :white;
 }
 #contenido {
     background-color: white;
