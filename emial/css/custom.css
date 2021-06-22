@@ -3,6 +3,10 @@ body {
     background: -webkit-linear-gradient(to right, #185a9d, #43cea2);
     background: linear-gradient(to right, #185a9d, #43cea2); 
 }
+.bgim
+{
+ Background: Url("https://image.freepik.com/vector-gratis/rombo-diseno-luz-neon_1189-449.jpg");   
+}
 #contenido {
     background-color: white;
     margin-top: 40px;
