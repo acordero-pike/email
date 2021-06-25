@@ -9,6 +9,11 @@ background: Url("https://image.freepik.com/vector-gratis/rombo-diseno-luz-neon_1
     background-size: cover;
     color :white;
 }
+input,textarea
+{
+    color:black;
+}
+
 #contenido {
     background-color: white;
     margin-top: 40px;
